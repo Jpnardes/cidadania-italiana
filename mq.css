@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --font1:font-family: 'Italiana', serif;
+    --font2:font-family: 'Roboto Slab', serif;
+    --cor1:#f5f5f5;
+    --cor2:#1b1b1b;
+    --cor3:#bd260f;
+    --cor4:#387d17;
+    --cor5:#e2d9be;
+}
+
+@media screen and (min-width: 768px) {
+
+}
