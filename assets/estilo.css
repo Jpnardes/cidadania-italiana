@@ -36,14 +36,17 @@ div#redes{
 }
 .rede{
     
-    font-size:2rem;
-    padding-right:10PX;
-    display: inline-block;
+    font-size:1.8rem;
+    padding-right:7PX;
+    display: inline-flex;
+    flex-wrap: nowrap;
     text-decoration: none;
     color: #1b1b1b;
 }
 .rede:hover{
-    color: #f5f5f5;
+    color: var(--cor3);
+    opacity: 0.9;
+    transition-delay: 5ms;
 }
 #nome{
     display: block;
@@ -53,12 +56,12 @@ div#redes{
     text-align: center;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.281);
 }
-img.imglogo{
+img#imglogo{
     display: block;
     height: 125px;
     
 }
-.menu{
+#menu{
    display: flex;
    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
 }
