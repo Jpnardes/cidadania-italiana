@@ -18,7 +18,11 @@
     --cor5:#e2d9be;
 }
     
+body {
+    background-color: var(--cor1);
+    
 
+}
 header{
     display: flex;
     height: 100px;
@@ -30,14 +34,19 @@ header{
     
 }
 div#redes{
-    position:relative;
-    float: inline-end;
-
+    display:flex;
+    padding-left: 20px;
+    width: 120px;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
 }
 .rede{
     
-    font-size:1.8rem;
-    padding-right:7PX;
+    font-size:1.6rem;
+    justify-content: space-between;
     display: inline-flex;
     flex-wrap: nowrap;
     text-decoration: none;
@@ -51,7 +60,7 @@ div#redes{
 #nome{
     display: block;
     font-family: var(--font1); 
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-weight:700;
     text-align: center;
     text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.281);
@@ -63,7 +72,8 @@ img#imglogo{
 }
 #menu{
    display: flex;
-   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.315);
+   box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.315);
+   flex-wrap:nowrap;
 }
 ul {
     list-style-type: none;
