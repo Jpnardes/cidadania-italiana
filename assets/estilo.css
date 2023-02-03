@@ -24,9 +24,7 @@
     font-family: 'Italianno';
     text-align: baseline;
 }
-body{
-    background-color: rgb(255, 245, 226);
-}
+
 #t1{
     font-family:'Tiro Devanagari Sanskrit', serif;
     color: #1b1b1b;
@@ -36,4 +34,30 @@ body{
 }
 #p1{
     text-indent: 5px!important;
+    font-size: 1.1em;
+}
+li#l1{
+    display: list-item;
+    padding-bottom: 10px;
+    font-family: var(--font2);
+
+}
+ul#u1{
+    list-style-type: square;
+    padding-top: 5px;
+    font-family: var(--font2);
+}
+@media (max-width: 600px) {
+    #t1{
+        font-family:'Tiro Devanagari Sanskrit', serif;
+        color: #1b1b1b;
+        border-bottom-color: black;
+        border-bottom: 1px solid #1b1b1b;
+        font-size: 1.5em;
+    }
+    #p1{
+        text-indent: 10px!important;
+        font-size: 1em;
+        font-family: var(--font2);
+    }
 }
