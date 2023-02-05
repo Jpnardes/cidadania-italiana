@@ -22,7 +22,8 @@
 }
 #volans{
     font-family: 'Italianno';
-    text-align: baseline;
+    text-align: center;
+    font-size: 2rem;
 }
 
 #t1{
@@ -30,11 +31,13 @@
     color: #1b1b1b;
     border-bottom-color: black;
     border-bottom: 1px solid #1b1b1b;
+    font-size: 1.8em;
+    text-indent: 20px!important;
 
 }
 #p1{
-    text-indent: 5px!important;
-    font-size: 1.1em;
+    text-indent: 10px!important;
+    font-size: 1.2em;
 }
 li#l1{
     display: list-item;
@@ -47,13 +50,15 @@ ul#u1{
     padding-top: 5px;
     font-family: var(--font2);
 }
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
     #t1{
         font-family:'Tiro Devanagari Sanskrit', serif;
         color: #1b1b1b;
         border-bottom-color: black;
         border-bottom: 1px solid #1b1b1b;
         font-size: 1.5em;
+        text-indent: 25px!important;
     }
     #p1{
         text-indent: 10px!important;
