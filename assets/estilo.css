@@ -32,12 +32,12 @@
     border-bottom-color: black;
     border-bottom: 1px solid #1b1b1b;
     font-size: 1.8em;
-    text-indent: 20px!important;
+    
 
 }
 #p1{
     text-indent: 10px!important;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 li#l1{
     display: list-item;
@@ -58,11 +58,18 @@ ul#u1{
         border-bottom-color: black;
         border-bottom: 1px solid #1b1b1b;
         font-size: 1.5em;
-        text-indent: 25px!important;
+        
     }
     #p1{
         text-indent: 10px!important;
         font-size: 1em;
         font-family: var(--font2);
+    }
+}
+@media screen and (min-width: 768px){
+    #t1{
+        text-indent: 15px!important;
+       
+
     }
 }
