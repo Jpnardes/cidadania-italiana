@@ -32,7 +32,7 @@
     background-image: url(../image/bandeira-600x400.png);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.185);
+    box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.185);
 }
 
 #volans1{
@@ -44,7 +44,7 @@
     
 }
 
-#t1{
+.t1{
     font-family:'Tiro Devanagari Sanskrit', serif;
     color: #1b1b1b;
     border-bottom-color: black;
@@ -53,34 +53,35 @@
     
 
 }
-#p1{
+.p1{
     text-indent: 10px!important;
-    font-size: 1em;
+    font-size: 1em!important;
 }
-li#l1{
+
+li.l1{
     display: list-item;
     padding-bottom: 10px;
     font-family: var(--font2);
 
 }
-ul#u1{
+ul.u1{
     list-style-type: square;
     padding-top: 5px;
     font-family: var(--font2);
 }
 .card1{
-    box-shadow: 1px 3px 7   px 0px rgba(0, 0, 0, 0.185);
+    box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.185);
 }
 @media (max-width: 1080px) {
    
-    #t1{
+    .t1{
         font-family:'Tiro Devanagari Sanskrit', serif;
         color: #1b1b1b;
         border-bottom-color: black;
         border-bottom: 1px solid #1b1b1b;
         font-size: 1.5em!important;
     }
-    #p1{
+    .p1{
         text-indent: 10px!important;
         font-size: 0.8em!important;
     }
