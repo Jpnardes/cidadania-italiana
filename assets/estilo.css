@@ -55,13 +55,14 @@
 }
 .p1{
     text-indent: 10px!important;
-    font-size: 1em!important;
+    font-size: 1.2em!important;
 }
 
 li.l1{
     display: list-item;
     padding-bottom: 10px;
     font-family: var(--font2);
+    font-size: 1.3rem!important;
 
 }
 ul.u1{
@@ -83,7 +84,7 @@ ul.u1{
     }
     .p1{
         text-indent: 10px!important;
-        font-size: 0.8em!important;
+        font-size: 1rem!important;
     }
     #volans1{
         font-family: 'Italianno';
