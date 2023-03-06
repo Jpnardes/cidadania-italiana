@@ -62,12 +62,34 @@ li.l1{
     display: list-item;
     padding-bottom: 10px;
     font-family: var(--font2);
-    font-size: 1.3rem!important;
+    font-size: 1.2rem!important;
 
 }
 ul.u1{
     list-style-type: square;
     padding-top: 5px;
+    font-family: var(--font2);
+}
+.af{
+   text-decoration:solid!important;
+   color: #ffeeee;
+   font-size: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.af:hover{
+    color: #1b1b1b;
+}
+.t2{
+    color: #fefefe;
+    font-family: 'Italianno';
+    font-weight: 500;
+    text-align: justify;
+    font-size: 2.5rem;
+}
+.p2{
+    color: #fefefe;
+    font-size: 1.2rem;
     font-family: var(--font2);
 }
 .card1{
