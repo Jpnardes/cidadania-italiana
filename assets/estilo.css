@@ -43,6 +43,14 @@
     font-size: 3.5rem;
     
 }
+.a1{
+    text-decoration: underline;
+    color: #1b1b1b;
+}
+.a1:hover{
+    text-decoration: solid;
+    color: #F5BB9A;
+}
 
 .t1{
     font-family:'Tiro Devanagari Sanskrit', serif;
@@ -62,7 +70,7 @@ li.l1{
     display: list-item;
     padding-bottom: 10px;
     font-family: var(--font2);
-    font-size: 1.2rem!important;
+    font-size: 1qrem!important;
 
 }
 ul.u1{
@@ -85,11 +93,11 @@ ul.u1{
     font-family: 'Italianno';
     font-weight: 500;
     text-align: justify;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 .p2{
     color: #fefefe;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: var(--font2);
 }
 .card1{

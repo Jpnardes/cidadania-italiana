@@ -53,12 +53,72 @@
             </div>
         </section>
     </section>
-    <main class="container">
-        <div class="row">
-            <div class="col">
+    <main class="container ">
+        <section class="container mt-3 border"style="background-color: #f8eecfb2">
+            <div class="row g-3">
+                <div class="col-md-12 my-3 pt-2"style="background-color: #f8eecfb2">
+                    <h3 class="t1" class="text-dark text-left mt-4" style="text-indent: 1rem;">Entre em contato conosco!</h3>
+                    <p class="p1 pt-2" class="text-justify">Após ver nosso site se ainda ficou alguma dúvida sobre o processo de cidadania não hesite em nos deixar uma mensagem. Caso queira iniciar seu processo o mais rápido possível entre em contato direto pelo nosso <a class="a1" href="#">whatsapp</a> ou <a class="a1" href="https://linkss.app/FZOpD" target="_blank" rel="external">instagram</a>; se você está avaliando suas opções e deseja fazer um orçamento sobre seu processo, preencha o formulário abaixo e especifique sua situação verifique suas informações e retornaremos com sua resposta o mais rápido possível.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container g-0">
+            <div class="row d-flex justify-content-center py-2">
+                <div class="col-4">
+                    <img src="image/vanice-sunset.jpg" class="img-fluid" alt="vanice sunset">
+                </div>
+                <div class="col-4">
+                    <img src="image/pexels-maegan-white-981686.jpg" class="img-fluid" alt="ponte na italia">
+                </div>
+                <div class="col-4">
+                    <img src="image/pexels-pixabay-417344.jpg" class="img-fluid" alt="Canal em veneza">
+                </div>
 
             </div>
-        </div>
+        </section>
+        <section class="container mt-2 p-4 border"style="background-color: #f8eecfb2">
+            <header class="row">
+                <div class="col">
+                    <h3 class="h3 t1" style="text-indent: 1rem;">
+                        Formulário de contato
+                    </h3>
+                </div>
+            </header>
+            <form action="#" method="get" class="row g-3">
+                <div class="col-md-6">
+                    <label for="firstname" class="form-label" style="text-indent: 0.5rem;">Primeiro Nome</label>
+                    <input type="text" class="form-control" name="firstname" id="firstname" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="lastname" class="form-label" style="text-indent: 0.5rem;">Sobrenome</label>
+                    <input type="text" class="form-control" name="lastname" id="lastname" required>
+                </div>
+                <div class="col-md-6 ">
+                    <label for="email" class="form-label" style="text-indent: 0.5rem;";>E-mail</label>
+                    <input type="email" name="email" id="email" class="form-control" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="from" class="form-label" style="text-indent: .5rem;">País de origem</label>
+                    <input list="from" class="form-control" required>
+                        <datalist id="from">
+                            <option value="Brasil">Brasil</option>
+                            <option value="Itália">Itália</option>
+                            <option value="Portugal">Portugal</option>
+                            <option value="Irlanda">Irlanda</option>
+                        </datalist>
+
+                </div>
+                <div class="colmd-12">
+                    <label for="textarea" class="form-label" style="text-indent:.5rem;">Escreva aqui a sua mensagem!</label>
+                    <textarea class="form-control" id="textarea" rows="3" required></textarea>
+
+                </div>
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>
+        </section>
 
     </main>
 
