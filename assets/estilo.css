@@ -4,123 +4,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital@1&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 
 }
-:root{
-    --font1:font-family: 'Italianno', cursive;
-    --font2:font-family: 'Roboto Slab', serif;
-    --font3:font-family: font-family: 'Tiro Devanagari Sanskrit', serif;
-    --cor1:#f5f5f5;
-    --cor2:#F5BB9A;
-    --cor3:#C25619;
-    --cor4:#8E2921;
-    --cor5:#75211B;
-    --cor6:#39C219;
+
+:root {
+    --font1: font-family: 'Italianno', cursive;
+    --font2: font-family: 'Roboto Slab', serif;
+    --font3: font-family: font-family: 'Tiro Devanagari Sanskrit', serif;
+    --cor1: #f5f5f5;
+    --cor2: #F5BB9A;
+    --cor3: #C25619;
+    --cor4: #8E2921;
+    --cor5: #75211B;
+    --cor6: #39C219;
 }
-#volans{
+
+#volans {
     font-family: 'Italianno';
     font-weight: 500;
     text-align: center;
     font-size: 2.5rem;
     color: var(--cor1);
 }
-#volans1bg{
+
+#volans1bg {
     background-image: url(../image/bandeira-600x400.png);
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 2px 3px 5px 0px rgba(0, 0, 0, 0.185);
 }
 
-#volans1{
-    
+#volans1 {
+
     font-family: 'Italianno';
     font-weight: 500;
     text-align: center;
     font-size: 3.5rem;
-    
+
 }
-.a1{
+
+.a1 {
     text-decoration: underline;
     color: #1b1b1b;
 }
-.a1:hover{
+
+.a1:hover {
     text-decoration: solid;
     color: #F5BB9A;
 }
 
-.t1{
-    font-family:'Tiro Devanagari Sanskrit', serif;
+.t1 {
+    font-family: 'Tiro Devanagari Sanskrit', serif;
     color: #1b1b1b;
     border-bottom-color: black;
     border-bottom: 1px solid #1b1b1b;
     font-size: 1.8em;
-    
+
 
 }
-.p1{
-    text-indent: 10px!important;
-    font-size: 1.2em!important;
+
+.p1 {
+    text-indent: 10px !important;
+    font-size: 1.2em !important;
 }
 
-li.l1{
+li.l1 {
     display: list-item;
     padding-bottom: 10px;
     font-family: var(--font2);
-    font-size: 1qrem!important;
+    font-size: 1qrem !important;
 
 }
-ul.u1{
+
+ul.u1 {
     list-style-type: square;
     padding-top: 5px;
     font-family: var(--font2);
 }
-.af{
-   text-decoration:solid!important;
-   color: #ffeeee;
-   font-size: 1rem;
-   font-family: Arial, Helvetica, sans-serif;
+
+.af {
+    text-decoration: solid !important;
+    color: #ffeeee;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
-.af:hover{
+
+.af:hover {
     color: #1b1b1b;
 }
-.t2{
+
+.t2 {
     color: #fefefe;
     font-family: 'Italianno';
     font-weight: 500;
     text-align: justify;
     font-size: 2rem;
 }
-.p2{
+
+.p2 {
     color: #fefefe;
     font-size: 1rem;
     font-family: var(--font2);
 }
-.card1{
+
+.card1 {
     box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.185);
 }
+
 @media (max-width: 1080px) {
-   
-    .t1{
-        font-family:'Tiro Devanagari Sanskrit', serif;
+
+    .t1 {
+        font-family: 'Tiro Devanagari Sanskrit', serif;
         color: #1b1b1b;
         border-bottom-color: black;
         border-bottom: 1px solid #1b1b1b;
-        font-size: 1.5em!important;
+        font-size: 1.5em !important;
     }
-    .p1{
-        text-indent: 10px!important;
-        font-size: 1rem!important;
+
+    .p1 {
+        text-indent: 10px !important;
+        font-size: 1rem !important;
     }
-    #volans1{
+
+    #volans1 {
         font-family: 'Italianno';
         font-weight: 500;
         text-align: center;
-        font-size: 2.5rem!important;
-        
+        font-size: 2.5rem !important;
+
     }
 }
