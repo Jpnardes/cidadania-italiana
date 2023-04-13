@@ -1,11 +1,46 @@
 @charset "UTF-8";
 
-.hidden{
-    display: none!important;
-}
-.btn-list{
-    width: 500px!important;
-    height: 35px!important;
-
-
-}
+.collapsible {
+    background-color: #913135;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    width: 52%;
+    border: none;
+    border-bottom:1px solid #292929;
+    text-align: left;
+    outline: none;
+    font-size: 1.4rem;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: #555;
+  }
+  
+  .collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .collapsible:hover {
+    background-color: #a5383c81;
+  }
+  
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    width: 52%;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color:#f8eecfb2;
+  }
+  

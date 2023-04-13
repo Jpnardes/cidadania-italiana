@@ -95,7 +95,7 @@ body, ul{
         position: relative!important;
     }
     #nav1.active #hamburger1{
-        border-top-color: transparent!important;
+        border-top-color: #ffffff00!important;
 
     }
     #nav1.active #hamburger1::before{
