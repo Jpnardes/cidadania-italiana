@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.hidden{
+    display: none!important;
+}
+.btn-list{
+    width: 500px!important;
+    height: 35px!important;
+
+
+}
