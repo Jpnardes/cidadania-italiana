@@ -10,6 +10,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/serviços.css">
     <link rel="stylesheet" href="assets/estilo.css">
     <link rel="stylesheet" href="assets/estilo1.css">
 
@@ -22,7 +23,7 @@
 <body class="container-fluid g-0" style="background-color:#f5f5f5">
     <div class="container-fluid g-0">
         <header id="header1">
-            <a id="logo1" href="1index.html"><img src="image/logonv.png" width="60px" alt="Logo Volans cidadania Italiana"></a>
+            <a id="logo1" target="_parent" href="1index.html"><img src="image/logonv.png" width="60px" alt="Logo Volans cidadania Italiana"></a>
             <nav id="nav1">
                 <button aria-label="Abrir Menu" id="btn-mobile1"aria-expanded="false" aria-controls="menu" aria-haspopup="true">
                     <span id="hamburger1"></span>
@@ -30,23 +31,21 @@
         
                 <ul id="menu1" role="menu">
                     <li class="nav-item border-bottom border-ligh">
-                        <a class="am"class="nav-link active text-light" aria-current="page" href="1index.html" >Home</a>
+                        <a class="am" target="_parent" class="nav-link active text-light" aria-current="page" href="1index.html" >Home</a>
                     </li>
                     <li class="nav-item border-bottom border-success">
-                        <a class="am"class="nav-link text-light" href="2cidadania.html">Cidadania</a>
+                        <a class="am" target="_parent" class="nav-link text-light" href="2cidadania.html">Cidadania</a>
                     </li>
                     <li class="nav-item border-bottom border-light">
-                        <a class="am"class="nav-link text-light" href="3servicos.html">Serviços</a>
+                        <a class="am" target="_parent" class="nav-link text-light" href="3servicos.html">Serviços</a>
                     </li>
                     <li class="nav-item border-bottom border-danger">
-                        <a class="am" class="nav-link text-light" href="4contato.html">Contato</a>
+                        <a class="am" target="_parent" class="nav-link text-light" href="4contato.html">Contato</a>
                     </li>
                 </ul>
             </nav>
         </header>
     </div>
-
-
 
     <section class="container-fluid " id="volans1bg">
         <section class="container-fluid">
@@ -57,32 +56,59 @@
             </div>
         </section>
     </section>
-    <section class="container" style="background-color: #f8eecfb2">
-        <div class="row py-5">
-            <div class="col-8 offset-2">
-                <h2 class="t1">Nossos serviços:</h2>
-                <ul class="unstyled p1">
-                    <li class="l1">Cidadania italiana por via materna.</li>
-                    <li class="l1">Cidadania italiana por via paterna.</li>
-                    <li class="l1">Cidadania italiana para filhos e filhos menores de idade.</li>
-                    <li class="l1">Cidadania por casamento.</li>
-                    <li class="l1">Cidadania por via judicial.</li>
-                    <li class="l1">Análise de documentos.</li>
-                    <li class="l1">Busca de documentação.</li>
-                    <li class="l1">Assessoria para emissão de passaporte.</li>
-                </ul>
+    <section class="container-fluid pt-2">
+
+        <div class="row justify-content-center">
+
+            <button type="button" class="collapsible">Cidadania via materna</button>
+            <div class="col-8 content">
+                <p class="p1">O processo de cidadania por via materna é realizado de forma judicial, nós estudamos seu caso e condicionamos da forma mais prática e palpável para suas condições. Entre em <a target="_blank" href="4contato.html">contato</a> conosco e veja quais as necessidades do seu caso. </p>
             </div>
+
+            <button type="button" class="collapsible">Cidadania via administrativa</button>
+            <div class=" col-8 content">
+                <p class="p1">O processo pode ocorrer na Itália ou pelo Brasil através da apresentação dos documentos corretos. Nós da Volans oferecemos assessoria completa no seu caso e ajudamos a você entender melhor como funciona a obtenção dos documentos e como lidar com a burocracia para facilitar o processo. </p>
+            </div>
+
+            <button type="button" class="collapsible">Cidadania para filhos e para filhos menores de idade</button>
+            <div class="col-8 content">
+                <p class="p1">Se você busca pela cidadania de seus filhos nós assessoramos você durante todo esse processo, caso tenha alguma dúvida entre em <a href="">contato</a> conosco. </p>
+            </div>
+
+            <button type="button" class="collapsible"">Cidadania por Casamento </button>
+            <div class="col-8 content">
+                <p class="p1">O processo por casamento pode levar 4 anos e é necessário o tempo de matrimonio entre 2 e 3 anos e existe a necessidade do pleno entendimento da língua italiana para iniciar o processo. Entre em <a target="_blank" href="4contato.html">contato</a> e indicamos quais documentos são necessários e quais os meios de obter a sua cidadania. </p>
+            </div>
+
+            <button type="button" class="collapsible">Cidadania por via judicial (Contra as filas)</button>
+            <div class="col-8 content">
+                <p class="p1">O processo por via judicial pode ser iniciado pela Itália ou pelo Brasil, o tempo de duração está entre 2 e 3 anos, é o método utilizado para passar da fila de espera que encontramos por exemplo no Brasil que pode acabar se tornando uma espera muito longo e após 2 anos acabam expirando por lei, entre em <a target="_blank" href="4contato.html">contato</a> com a nossa assessoria e iremos iniciar seu processo o quanto antes para lidar com os tramites da espera. </p>
+            </div>
+
+            <button type="button" class="collapsible">Análise de documentos</button>
+            <div class="col-8 content">
+                <p class="p1">Analisamos e colocamos em ordem seus documentos, focamos em ajudar a selecionar e solucionar seus problemas com as burocracias e as traduções que são necessárias para realização do seu processo. Com nossos anos de assessoria colocamos você no caminho correto para encurtar todo esse processo. </p>
+            </div>
+
+            <button type="button" class="collapsible">Busca de Documentos</button>
+            <div class="col-8    content">
+                <p class="p1">Bem como no processo através dos meios italianos ou brasileiros, entendemos a necessidade dos documentos em ordem e autenticados, estamos dispostos a lhe ajudar com toda a busca de sua documentação e ordenamento, para realizar um processo seguro e com resultados benéficos para você e todas as suas próximas gerações. Entre em <a target="_blank" href="4contato.html">contato</a> conosco e descomplique seu processo. </p>
+            </div>
+            
         </div>
+        </div>
+    </section>
+    <section class="container" style="background-color: #f8eecfb2">
 
         <div class="row py-3 px-0" style="background-color:#f5f5f5;">
             <div class="col"><img src="image/man-holding-several-college-notes.jpg" class="img-fluid" alt="homem segurando uma papelada"></div>
             <div class="col"><img src="image/beautiful-panoramic-view-duomo-square-milan-with-big-stree.jpg" class="img-fluid" alt="rua em milão foto panoramica"></div>
             <div class="col"><img src="image/visa-application-italy-arrangement.jpg" class="img-fluid" alt="visa application italy"></div>
         </div>
-        <div class="row py-2">
+        <div class="row py-2"   >
             <div class="col-8 offset-2">
                 <p class="p1 pt-2">A documentação do seu caso depende da orientação de um advogado. As informações acima são comuns a casos de via paterna e materna, seguindo o site do consulado. Porém, é possível que no seu procedimento, existam outros documentos também necessários. Todos os documentos precisam passar pelo processo de tradução e apostilamento. </p>
-                <ul class="unstyled u1">
+                <ul class="unstyled u1" style="list-style-position: inside;">
                     <li class="l1">Estratto dell’Atto di Nascita, em original, emitido pelo Comune competente, contendo filiação. (certidão de nascimento do parente italiano) </li>
                     <li class="l1">Requerimento para Atribuição de Nacionalidade Italiana </li>
                     <li class="l1">Certidões de nascimento/casamento e óbito de toda a linha ascendente até o italiano, traduzido e apostilado </li>
@@ -138,6 +164,7 @@
     </footer>
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="assets/serviços.js"></script>
     <script src="assets/javascript.js"></script>
     <script src="assets/bootstrap/bootstrap.js"></script>
     <script src="assets/bootstrap/bootstrap.bundle.js"></script>

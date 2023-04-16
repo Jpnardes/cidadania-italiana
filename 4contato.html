@@ -89,38 +89,30 @@
                     </h3>
                 </div>
             </header>
-            <form action="#" method="get" class="row g-3">
+            <form action="https://api.staticforms.xyz/submit" method="POST" class="row g-3">
+                <input type="hidden" name="accessKey" value="b8976e74-2541-4130-bf94-c296cfb192ff">
                 <div class="col-md-6">
                     <label for="firstname" class="form-label" style="text-indent: 0.5rem;">Primeiro Nome</label>
-                    <input type="text" class="form-control" name="firstname" id="firstname" required>
+                    <input type="text" class="form-control" name="name" id="firstname" required>
                 </div>
                 <div class="col-md-6">
                     <label for="lastname" class="form-label" style="text-indent: 0.5rem;">Sobrenome</label>
-                    <input type="text" class="form-control" name="lastname" id="lastname" required>
+                    <input type="text" class="form-control" name="name" id="lastname" required>
                 </div>
                 <div class="col-md-6 ">
                     <label for="email" class="form-label" style="text-indent: 0.5rem;";>E-mail</label>
                     <input type="email" name="email" id="email" class="form-control" required>
                 </div>
-                <div class="col-md-6">
-                    <label for="from" class="form-label" style="text-indent: .5rem;">País de origem</label>
-                    <input list="from" class="form-control" required>
-                        <datalist id="from">
-                            <option value="Brasil">Brasil</option>
-                            <option value="Itália">Itália</option>
-                            <option value="Portugal">Portugal</option>
-                            <option value="Irlanda">Irlanda</option>
-                        </datalist>
-
-                </div>
+            
                 <div class="colmd-12">
                     <label for="textarea" class="form-label" style="text-indent:.5rem;">Escreva aqui a sua mensagem!</label>
-                    <textarea class="form-control" id="textarea" rows="3" required></textarea>
+                    <textarea class="form-control" id="textarea" name="message" rows="3" required></textarea>
 
                 </div>
                 <div class="col-md-12">
-                    <button type="submit" id="enviar" class="btn btn-primary ms-1">Enviar</button>
+                    <button type="submit" id="enviar" class="btn btn-primary ms-2 px-4 py-2">Enviar</button>
                 </div>
+                <input type="hidden" name="redirectTo" value="#">
             </form>
         </section>
         <section class="container mt-3 border"style="background-color: #f8eecfb2">

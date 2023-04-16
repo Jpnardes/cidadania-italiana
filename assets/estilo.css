@@ -76,7 +76,7 @@ li.l1 {
     display: list-item;
     padding-bottom: 10px;
     font-family: var(--font2);
-    font-size: 1qrem !important;
+    font-size: 1.2rem !important;
 
 }
 
