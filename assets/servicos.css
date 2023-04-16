@@ -43,3 +43,7 @@
     background-color:#f8eecfb2;
   }
   
+  a > .as{
+    color: black !important;
+    text-decoration: none;
+  }
