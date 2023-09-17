@@ -23,6 +23,8 @@
     --cor6: #39C219;
 }
 
+
+
 #volans {
     font-family: 'Italianno';
     font-weight: 500;
@@ -42,7 +44,6 @@
 
     font-family: 'Italianno';
     font-weight: 500;
-    text-align: center;
     font-size: 3.5rem;
 
 }
@@ -59,9 +60,7 @@
 
 .t1 {
     font-family: 'Tiro Devanagari Sanskrit', serif;
-    color: #1b1b1b;
-    border-bottom-color: black;
-    border-bottom: 1px solid #1b1b1b;
+    color: #000000;
     font-size: 1.8em;
 
 
@@ -88,7 +87,7 @@ ul.u1 {
 
 .af {
     text-decoration: solid !important;
-    color: #ffeeee;
+    color: #000000;
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -99,7 +98,7 @@ ul.u1 {
 }
 
 .t2 {
-    color: #fefefe;
+    color: #ffffff;
     font-family: 'Italianno';
     font-weight: 500;
     text-align: justify;
@@ -107,7 +106,7 @@ ul.u1 {
 }
 
 .p2 {
-    color: #fefefe;
+    color: #ffffff;
     font-size: 1rem;
     font-family: var(--font2);
 }
@@ -115,27 +114,27 @@ ul.u1 {
 .card1 {
     box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.185);
 }
+.borda{
+    border-bottom: 1px solid #000000!important;
+}
 
-@media (max-width: 1080px) {
 
-    .t1 {
-        font-family: 'Tiro Devanagari Sanskrit', serif;
-        color: #1b1b1b;
-        border-bottom-color: black;
-        border-bottom: 1px solid #1b1b1b;
-        font-size: 1.5em !important;
-    }
+.t1 {
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color: #000000;
+    font-size: 1.8em;
 
-    .p1 {
-        text-indent: 10px !important;
-        font-size: 1rem !important;
-    }
+}
 
-    #volans1 {
-        font-family: 'Italianno';
-        font-weight: 500;
-        text-align: center;
-        font-size: 2.5rem !important;
+.p1 {
+    text-indent: 10px !important;
+    font-size: 1rem !important;
+}
 
-    }
+#volans1 {
+    font-family: 'Italianno';
+    font-weight: 500;
+    text-align: center;
+    font-size: 2.5rem !important;
+
 }

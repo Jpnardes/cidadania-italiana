@@ -21,47 +21,54 @@
 
 </head>
 
-<body class="container-fluid py-0 px-0 " style="background-color:#f5f5f5">
+<body id="bg-img" class="container-fluid py-0 px-0">
     <div class="container-fluid g-0">
         <header id="header1">
-            <a id="logo1" href="index.html"><img src="image/logonv.png" width="60px" alt="Logo Volans cidadania"></a>
+            <div class="row">
+
+                <div class="col justify-content-center align-middle">
+                    <a id="logo1"" href=" index.html"><img class="me-2" src="image/logonv.png" width="60px"
+                            alt="Logo Volans cidadania"></a>
+                </div>
+            </div>
+
+
             <nav id="nav1">
-                <button aria-label="Abrir Menu" id="btn-mobile1"aria-expanded="false" aria-controls="menu" aria-haspopup="true">
+                <button aria-label="Abrir Menu" id="btn-mobile1" aria-expanded="false" aria-controls="menu"
+                    aria-haspopup="true">
                     <span id="hamburger1"></span>
                 </button>
-        
-                <ul id="menu1" role="menu">
-                    <li class="nav-item border-bottom border-ligh">
-                        <a class="am"class="nav-link active text-light" aria-current="page" href="index.html" >Home</a>
-                    </li>
-                    <li class="nav-item border-bottom border-success">
-                        <a class="am"class="nav-link text-light" href="cidadania.html">Cidadania</a>
-                    </li>
-                    <li class="nav-item border-bottom border-light">
-                        <a class="am"class="nav-link text-light" href="servicos.html">Serviços</a>
-                    </li>
-                    <li class="nav-item border-bottom border-danger">
-                        <a class="am" class="nav-link text-light" href="contato.html">Contato</a>
-                    </li>
-                </ul>
+
+                <div class="container-fluid text-center">
+                    <div class="row">
+                        <ul id="menu1" role="menu">
+                            <li class="nav-item ">
+                                <a class="am" class="nav-link active " aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle am" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Cidadania
+                                  </a>
+                                  <ul class="dropdown-menu bg bg-danger ">
+                                    <li><a class="dropdown-item am" href="italia.html">Itália</a></li>
+                                    <li><a class="dropdown-item am" href="#">Espanha</a></li>
+                                    <li><a class="dropdown-item am" href="#">Portugal</a></li>
+                                  </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="am" class="nav-link " href="contato.html">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
     </div>
-
-    <section class="container-fluid gx-0 " id="volans1bg">
-        <section class="container-fluid">
-            <div class="row-col-1">
-                <div class="col-6 offset-3 border-bottom border-tertiary pt-3">
-                    <h1 id="volans1" class="mb-0" style="color: black;">Volans Cidadania</h1>
-                </div>
-            </div>
-        </section>
-    </section>
     <main class="container ">
         <section class="container mt-3 border"style="background-color: #f8eecfb2">
             <div class="row g-3">
                 <div class="col-md-12 my-3 pt-4 "style="background-color: #f8eecfb2">
-                    <h3 class="t1" class="text-dark text-left mt-4" style="text-indent: 1rem;">Entre em contato conosco!</h3>
+                    <h3 class="t1" class="borda text-dark text-left mt-4" style="text-indent: 1rem;">Entre em contato conosco!</h3>
                     <p class="p1 pt-2" class="text-justify">Após ver nosso site se ainda ficou alguma dúvida sobre o processo de cidadania não hesite em nos deixar uma mensagem. Caso queira iniciar seu processo o mais rápido possível entre em contato direto pelo nosso <a class="a1" href="#">whatsapp</a> ou <a class="a1" href="https://linkss.app/FZOpD" target="_blank" rel="external">instagram</a>; se você está avaliando suas opções e deseja fazer um orçamento sobre seu processo, preencha o formulário abaixo e especifique sua situação verifique suas informações e retornaremos com sua resposta o mais rápido possível.
                     </p>
                 </div>
